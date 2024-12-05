@@ -969,7 +969,7 @@ About Us Style
 }
 
 .about-us .services .item .icon img {
-  max-width: 70px;
+  max-width: 150px;
 }
 
 .about-us .services .item h4 {
@@ -989,6 +989,41 @@ About Us Style
 Services Style
 --------------------------------------------- 
 */
+/* Ensure the modal dialog has appropriate styling */
+dialog {
+  width: 80%;
+  max-width: 600px;
+  max-height: 80vh;
+  overflow: auto;  /* Allow scrolling if content exceeds modal size */
+  padding: 20px;
+  border-radius: 8px;
+  background-color: white;
+  position: relative;
+}
+
+/* Ensure the button stays at the bottom of the modal */
+.dialog-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+/* Add margin to the button to ensure it's not stuck to the text */
+button.closeDialog {
+  align-self: flex-end;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button.closeDialog:hover {
+  background-color: #0056b3;
+}
 
 .our-services {
   margin-top: 0px;
