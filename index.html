@@ -2,7 +2,7 @@
 <html lang="en">
 
   <head>
-
+    <link rel="icon" href="assets/images/png-clipart-gear-brain-human-head-icon-brain-gear-material-png-material-people-removebg-preview (1).png">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
@@ -83,12 +83,12 @@ https://templatemo.com/tm-562-space-dynamic
           <div class="row">
             <div class="col-lg-6 align-self-center">
               <div class="left-content header-text wow fadeInLeft" data-wow-duration="1s" data-wow-delay="1s">
-                <h6>First Edition</h6>
+                <h6>Second Edition</h6>
                 <h2>CAMI <em>Symposium</em> 
-                <p>LIV4D, MAGNU and VISIONIC meet up for the next edition of the mini-symposium! Check out our student abstracts, posters and schedule for the 2024-2025 edition!</p>
+                <p>LIV4D, MAGNU and VISIONIC meet up for the next edition of the mini-symposium, now the  <span>Computer Analysis and Medical Imaging  </span>Symposium! Check out our student abstracts, posters and schedule for the 2024-2025 edition!</p>
                 <form id="search" action="#" method="GET">
                   <fieldset>
-                    <input type="address" name="address" class="email" placeholder="                 Date : Friday, 13 Dec 2024 @ 9ham " center autocomplete="on" disabled>
+                    <input type="address" name="address" class="email" placeholder="                 Date : Friday, 13 Dec 2024 @ 9h AM " center autocomplete="on" disabled>
                   </fieldset>
                   <fieldset>
                   </fieldset>
@@ -97,7 +97,7 @@ https://templatemo.com/tm-562-space-dynamic
             </div>
             <div class="col-lg-6">
               <div class="right-image wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.5s">
-                <img src="assets/images/poster_v3.png" alt="team meeting">
+                <img src="assets/images/poster_v2.png" alt="team meeting">
               </div>
             </div>
           </div>
@@ -129,6 +129,8 @@ https://templatemo.com/tm-562-space-dynamic
     <div class="container">
       <div class="row">
         <div class="col-lg-4">
+          <h1 style="color:white;">  The Panelists </h1>
+          <br> <br>
           <div class="left-image wow fadeIn" data-wow-duration="1s" data-wow-delay="0.2s">
             <img src="assets/images/about-left-image.png" alt="person graphic">
           </div>
@@ -143,7 +145,7 @@ https://templatemo.com/tm-562-space-dynamic
                   </div>
                   <div class="right-text">
                     <h4>Rola Harmouche, PhD</h4>
-                    <p>Officière de recherche, CNRC</p>
+                    <p>Research Officer, NRC</p>
                   </div>
                 </div>
               </div>
@@ -154,29 +156,29 @@ https://templatemo.com/tm-562-space-dynamic
                   </div>
                   <div class="right-text">
                     <h4>Benjamin De Leener, PhD</h4>
-                    <p>Co-Directeur du laboratoire de NeuroPoly, Polytechnique Montréal</p>
+                    <p>Co-Director of the NeuroPoly laboratory, Polytechnique Montréal</p>
                   </div>
                 </div>
               </div>
               <div class="col-lg-6">
                 <div class="item wow fadeIn" data-wow-duration="1s" data-wow-delay="0.9s">
                   <div class="icon">
-                    <img src="assets/images/Michael-removebg-preview.png" alt="">
+                    <img src="assets/images/Michael-removebg-preview.png" alt="" >
                   </div>
                   <div class="right-text">
                     <h4>Michael Sauthier, MD, PhD</h4>
-                    <p>Professeur Adjoint, Université de Montréal</p>
+                    <p> Adjunct Professor and Pediatrician, Université de Montréal</p>
                   </div>
                 </div>
               </div>
               <div class="col-lg-6">
                 <div class="item wow fadeIn" data-wow-duration="1s" data-wow-delay="1.1s">
                   <div class="icon">
-                    <img src="assets/images/service-icon-04.png" alt="">
+                    <img src="assets/images/julia-keren (1).png" alt="">
                   </div>
                   <div class="right-text">
-                    <h4>TBD</h4>
-                    <p>Tbd</p>
+                    <h4>Julia Keren, B.Ed</h4>
+                    <p>Co-President of Kerenor Dental Studio, Montreal</p>
                   </div>
                 </div>
               </div>
@@ -199,20 +201,32 @@ https://templatemo.com/tm-562-space-dynamic
       </div>
       <div class="row">
         <div class="col-lg-3 col-sm-6">
-          <a href="#">
+          <a class="openDialog">
             <div class="item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.3s">
-              <div class="hidden-content">
-                <h4>Zacharie</h4>
-                <p>Graph-based representation of retinal lesions for an interpretable diagnosis of diabetic retinopathy</p>
-              </div>
-              <div class="showed-content">
-                <img src="assets/images/liv4d_logo_highres_transp.png" alt="">
-              </div>
+                <div class="hidden-content">
+                    <h4>Zacharie Legault</h4>
+                    <p>Graph-based representation of retinal lesions for an interpretable diagnosis of diabetic retinopathy</p>
+                </div>
+                <div class="showed-content">
+                    <img src="assets/images/liv4d_logo_highres_transp.png" alt="">
+                </div>
             </div>
-          </a>
+        </a>
+        
+        <!-- Dialog Box -->
+        <dialog class="dialogOne">
+            <div class="dialog-content">
+                <h3>ABSTRACT - Zacharie Legault </h3>
+                <br>
+                <h6>Graph-based representation of retinal lesions for an interpretable diagnosis of diabetic retinopathy</h6>
+                <p>Diabetic retinopathy (DR) is a leading cause of blindness among the working-age population worldwide. DR diagnosis and grading are based on identifying characteristic retinal lesions through fundus imaging. Despite the effectiveness of deep learning techniques in DR detection and grading, these methods often lack interpretability. This work introduces a novel approach that leverages a graph representation of the retina, where each node corresponds to a lesion, and a graph neural network (GNN) is used to grade DR. Our method aligns with clinical guidelines by using lesion-specific information while maintaining the capacity of deep learning models. We first segment DR lesions using a pre-trained convolutional neural network (CNN) and then construct a graph with lesions as nodes connected to their k nearest neighbours. Features for each node are derived from the lesion-specific regions in the fundus image. The resulting lesion graph is classified using a graph attention network (GAT) to make the DR grade prediction. Our method was evaluated on multiple public datasets, achieving performance comparable to state-of-the-art techniques based on quadratic weighted Cohen's kappa and other metrics. This graph-based approach offers a balance between local lesion segmentation and global image classification, potentially enhancing interpretability and robustness for clinical applications.
+                </p>
+                <button class="closeDialog">Close</button>
+            </div>
+        </dialog>
         </div>
         <div class="col-lg-3 col-sm-6">
-          <a href="#">
+          <a class="openDialog">
             <div class="item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.4s">
               <div class="hidden-content">
                 <h4>Samia Haidar</h4>
@@ -224,9 +238,22 @@ https://templatemo.com/tm-562-space-dynamic
               </div>
             </div>
           </a>
+
+          <!-- Dialog Box -->
+        <dialog class="dialogOne">
+          <div class="dialog-content">
+              <h3>ABSTRACT - Samia Haidar </h3>
+              <br>
+              <h6>Spherical Harmonics for Comprehensive Tooth Shape
+                Modeling and Variability Analysis</h6>
+              <p>The complexity of tooth shapes stems from a combination of anatomical diversity, functional adaptations, and individual variations, even within the same tooth position, resulting in a wide range of tooth morphologies. This inherent variability poses challenges in accurately representing and analyzing dental forms, highlighting the need for advanced modeling techniques to capture the detailed anatomy and  variability of teeth. Average tooth shapes are crucial in various fields, including diagnostics, treatment planning, educational purposes, human evolution studies, and forensic anthropology. This project leverages a dataset of tooth shapes from various patients to model and analyze tooth variability using spherical harmonics representations. The methodology includes representing each tooth with spherical harmonics coefficients, establishing point-to-point correspondences, and creating atlases for each tooth position. Variability is analyzed through Principal Component Analysis (PCA). The results showcase high accuracy and detail in the reconstructed teeth based on spherical harmonics coefficients. The atlases effectively capture critical features such as cusps and grooves, reduce subjectivity, and reveal significant variability in the dataset.
+              </p>
+              <button class="closeDialog">Close</button>
+          </div>
+      </dialog>
         </div>
         <div class="col-lg-3 col-sm-6">
-          <a href="#">
+          <a  class="openDialog">
             <div class="item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.5s">
               <div class="hidden-content">
                 <h4>Étienne Lescarbeault</h4>
@@ -238,12 +265,144 @@ https://templatemo.com/tm-562-space-dynamic
               </div>
             </div>
           </a>
+          <!-- Dialog Box -->
+        <dialog class="dialogOne">
+          <div class="dialog-content">
+              <h3>ABSTRACT - Étienne Lescarbeault</h3>
+              <br>
+              <h6>TADA-SAE: Exploiting bilateral symmetry in learned texture 
+                representations for medical thermal imaging</h6>
+              <p>The skin surface temperature is a well known indicator of a patient's health. Thermal imaging is an effective tool for visualizing its distribution of intensities, opening new possibilities of diagnosis. Moreover, the bilateral symmetry of temperature arrangements in opposite body parts can be used to detect pathologies.  By learning representations of texture and comparing their asymmetries, we hypothesize that texture latent vectors between opposite body parts thermographies allows to efficiently describe the temperature differences that can signal an anomaly in the thermal domain. Our TADA-SAE (Texture Anomaly Detection using Swapping Autoencoder) model is tested on the private OrthoPOT dataset for post-operative complications following total arthroplasty on the lower limbs and on the publicly available DMR-IR dataset for breast cancer detection. An iForest algorithm trained on symmetry features and clinical data achieves 0.842 AUROC on OrthoPOT and a competitive 0.988 AUROC on DMR-IR while using fewer parameters than traditional methods.  Our method is the first using learned texture features and asymmetry for anomaly detection in medical thermal imaging, showing promising results which could open to other tasks in the medical field where bilateral symmetry can be leveraged.
+              </p>
+              <button class="closeDialog">Close</button>
+          </div>
+      </dialog>
         </div>
         <div class="col-lg-3 col-sm-6">
-          <a href="#">
+          <a  class="openDialog">
             <div class="item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.6s">
               <div class="hidden-content">
                 <h4>Victor P., Lauriane, Valérie</h4>
+                <p>Système d'évaluation automatique de la qualité du positionnement 
+                  mammaire lors des examens mammographiques</p>
+              </div>
+              <div class="showed-content">
+                <img src="assets/images/VisionIC_carre_transp.png" alt="">
+              </div>
+            </div>
+          </a>
+           <!-- Dialog Box -->
+        <dialog class="dialogOne">
+          <div class="dialog-content">
+              <h3>ABSTRACT - Victor P., Lauriane, Valérie </h3>
+              <br>
+              <h6>Système d'évaluation automatique de la qualité du positionnement 
+                mammaire lors des examens mammographiques</h6>
+              <p>Le dépistage précoce du cancer du sein repose sur l'examen mammographique, dont la qualité dépend de nombreux facteurs, notamment le positionnement adéquat du sein dans le dispositif de compression. Une mauvaise qualité de positionnement peut entraîner des erreurs de  diagnostic ou des réexamens. Au Québec, près de 360 000 mammographies sont réalisées chaque année, avec des prévisions de croissance en  raison de la révision des lignes directrices de dépistage. Cependant, des études montrent que près de la moitié des examens ne respectent pas les critères de positionnement optimal, augmentant le risque de diagnostics erronés. Ce projet vise à développer un système d'évaluation automatique de la qualité du positionnement mammaire, en se basant sur 17 critères relatifs aux vues crânio-caudale (CC) et médio-latérale oblique (MLO). Diverses approches seront utilisées, incluant des techniques classiques de traitement d'image et des réseaux de neurones convolutionnels (CNN), ainsi que des méthodes d'apprentissage supervisé et semi-supervisé pour évaluer plusieurs critères simultanément. À ce jour, des méthodes classiques ont permis de délimiter les structures anatomiques du sein, et des réseaux de neurones sont en cours de développement pour évaluer quantitativement les critères de positionnement. Ce système pourrait améliorer la précision du dépistage et réduire les erreurs de diagnostic.
+              </p>
+              <button class="closeDialog">Close</button>
+          </div>
+      </dialog>
+        </div>
+      </div>
+      <br><br>
+      <div class="row">
+        <div class="col-lg-3 col-sm-6">
+          <a  class="openDialog">
+            <div class="item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.3s">
+              <div class="hidden-content">
+                <h4>Nazanin Abbasi Moghadam</h4>
+                <p> 3D Prosthesis Generation on Dental Implants 
+                  Using a Diffusion Model</p>
+              </div>
+              <div class="showed-content">
+                <img src="assets/images/MAGNU_Francois_logo.png" alt="">
+              </div>
+            </div>
+          </a>
+           <!-- Dialog Box -->
+        <dialog class="dialogOne">
+          <div class="dialog-content">
+              <h3>ABSTRACT - Nazanin Abbasi Moghadam </h3>
+              <br>
+              <h6>3D Prosthesis Generation on Dental Implants 
+                Using a Diffusion Model</h6>
+              <p>This study introduces a new approach for creating dental prostheses using a diffusion model. The method utilizes 3D point clouds to reconstruct complete prosthetic structures from incomplete dental data. By focusing on the provided input, the model accurately fills in missing areas while  preserving important details. Furthermore, it generates multiple realistic designs, enabling clinicians to choose the most suitable option for each patient.
+              </p>
+              <button class="closeDialog">Close</button>
+          </div>
+      </dialog>
+        </div>
+        <div class="col-lg-3 col-sm-6">
+          <a  class="openDialog">
+            <div class="item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.4s">
+              <div class="hidden-content">
+                <h4>Imane Chafi</h4>
+                <p>Multimodal Registration for Non-Invasive Internal Characterization of Dental Preparations</p>
+              </div>
+              <div class="showed-content">
+                <img src="assets/images/MAGNU_Francois_logo.png" alt="">
+              </div>
+            </div>
+          </a>
+           <!-- Dialog Box -->
+        <dialog class="dialogOne">
+          <div class="dialog-content">
+              <h3>ABSTRACT - Imane Chafi </h3>
+              <br>
+              <h6>Multimodal Registration for Non-Invasive Internal Characterization of Dental Preparations</h6>
+              <p>The internal visualization of dental preparations presents a challenge in
+                 crown placement procedures. Intraoral scanners, although
+                  innovative and minimally invasive, only provide surface 
+                  information, making it difficult to assess the internal 
+                  structures of the tooth. To address this issue, our 
+                  research proposes the combined use of CBCT scans 
+                  (cone beam computed tomography)
+                  and intraoral scanners from the preparation procedure.
+                   Through 3D registration between these two types of data,
+                    we can visualize the internal structures of the preparations. 
+           Preliminary results show that this technique allows for a deeper evaluation 
+                     of dental preparations, providing dentists with a tool to 
+                     improve the precision of their interventions. This research 
+                     paves the way for partial automation of dental preparation 
+                     procedures. The development of this technique 
+                      offers dentists a computational method that combines both 
+                      internal and external visualization of the teeth, presenting 
+                      a new approach to the evaluation of dental preparations.
+              </p>
+              <button class="closeDialog">Close</button>
+          </div>
+      </dialog>
+        </div>
+        <div class="col-lg-3 col-sm-6">
+          <a  class="openDialog">
+            <div class="item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.5s">
+              <div class="hidden-content">
+                <h4>Gaspar Faure</h4>
+                <p>Self-Supervised Deep Metric Learning for Prototypical Zero-Shot Lesion Retrieval in Placenta Whole-Slide Images </p>
+              </div>
+              <div class="showed-content">
+                <img src="assets/images/VisionIC_carre_transp.png" alt="">
+              </div>
+            </div>
+          </a>
+           <!-- Dialog Box -->
+        <dialog class="dialogOne">
+          <div class="dialog-content">
+              <h3>ABSTRACT - Gaspar Faure </h3>
+              <br>
+              <h6>Self-Supervised Deep Metric Learning for Prototypical Zero-Shot Lesion Retrieval in Placenta Whole-Slide Images</h6>
+              <p>Placental lesions can predict possible recurrence in subsequent pregnancies and explain findings and postnatal adverse outcomes. However, placenta whole-slide image (WSI) analysis is not performed systematically due to the specific level of skills required. There is no public dataset available for placenta WSI and precise and consensus annotations are very limited. In this context of low data availability and considering the almost impossible task of obtaining precise expert annotation, we propose a new deep metric learning (DML)-based method for efficient inflammatory lesion retrieval in placenta WSIs. We train an image encoder without any labels, using normal WSIs only with a MoCo v2-inspired self-supervised learning (SSL) framework. This image encoder is used to define prototype vectors for inflammatory lesions, using a very limited number of known pathological patches, extracted from 1 placenta only. We can then retrieve inflammatory lesions from unseen WSIs by comparing patches with the prototype vector in the image encoder’s metric space. The obtained similarity map is then refined using a simple post-processing method to take into account spatial patch proximity. We evaluated our method on a private dataset of 165 annotated placenta WSIs as well as on the CAMELYON16 dataset for lymph node metastasis retrieval. 
+              </p>
+              <button class="closeDialog">Close</button>
+          </div>
+      </dialog>
+        </div>
+        <div class="col-lg-3 col-sm-6">
+          <a  class="openDialog">
+            <div class="item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.6s">
+              <div class="hidden-content">
+                <h4>Cyprien Arnold</h4>
                 <p>Super-résolution d’images thermiques d’enfants en soins intensifs pédiatriques</p>
               </div>
               <div class="showed-content">
@@ -251,8 +410,122 @@ https://templatemo.com/tm-562-space-dynamic
               </div>
             </div>
           </a>
+           <!-- Dialog Box -->
+        <dialog class="dialogOne">
+          <div class="dialog-content">
+              <h3>ABSTRACT - Cyprien Arnold </h3>
+              <br>
+              <h6>Super-résolution d’images thermiques d’enfants en soins intensifs pédiatriques</h6>
+              <p>Ce travail de recherche porte sur la super-résolution d’images thermiques. Il a été développé pour améliorer le monitorage des enfants en soins intensifs pédiatriques. En effet, l’utilisation de caméras thermiques permettraient d’orienter et de faciliter le travail du personnel médical vers les cas les plus sévères visant ainsi à améliorer l’organisation du travail du personnel soignant dont les effectifs sont très tendus. Les caméras thermiques ont de nombreuses applications dans le milieu médicale. Elles permettent une surveillance non-invasive (qui ne gène pas le patient)  tout en permettant l’accès à sa température ou à la position de ses membres sous une couverture. Cependant, le coût à l’achat d’une caméra thermique de bonne qualité, avec une grande résolution, demeure très élevé. Il existe des caméras thermiques bon marché mais avec une  résolution très dégradée. L’objectif de ce travail de recherche est de pouvoir exploiter les images thermiques en augmentant la qualité des images acquises avec des caméras thermiques de faible résolution. Ce processus d’augmentation de la qualité d’une image est appelé, super  résolution (SR). Cette tache de vision par ordinateur est une tache qui a été très étudié ces dernières années et dans ce mémoire nous présentons une nouvelle architecture de réseau de neurone avec des résultats très compétitifs. L’originalité de ce travail de recherche porte sur le fait d’utiliser l’image du spectre du visible dans le but d’améliorer la qualité de l’image thermique tout en assurant une robustesse de la méthode dans le cas où une modalité manquerait.
+              </p>
+              <button class="closeDialog">Close</button>
+          </div>
+      </dialog>
         </div>
       </div>
+
+      <br><br>
+      <div class="row">
+        <div class="col-lg-3 col-sm-6">
+          <a  class="openDialog">
+            <div class="item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.3s">
+              <div class="hidden-content">
+                <h4>Doha Zrouki</h4>
+                <p> Automatic Classification of Closed-Angle Glaucoma Using Anterior Eye Segment Images</p>
+              </div>
+              <div class="showed-content">
+                <img src="assets/images/VisionIC_carre_transp.png" alt="">
+              </div>
+            </div>
+          </a>
+           <!-- Dialog Box -->
+        <dialog class="dialogOne">
+          <div class="dialog-content">
+              <h3>ABSTRACT - Doha Zrouki </h3>
+              <br>
+              <h6>Automatic Classification of Closed-Angle Glaucoma Using Anterior Eye Segment Images</h6>
+              <p>Primary Angle Closure Glaucoma (PACG) is a leading cause of blindness worldwide, particularly prevalent among aging populations and certain ethnic groups. Early detection is critical to prevent irreversible vision loss, yet current diagnostic methods such as Optical Coherence Tomography (OCT), gonioscopy, and tonometry are limited by high costs, the need for specialized equipment, and patient discomfort. This study explores a non-invasive, cost-effective alternative for PACG detection using external eye images obtained from the Van Herick test, which evaluates the anterior chamber angle without requiring direct eye contact or pupil dilation.
+              </p>
+              <button class="closeDialog">Close</button>
+          </div>
+      </dialog>
+        </div>
+        <div class="col-lg-3 col-sm-6">
+          <a  class="openDialog">
+            <div class="item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.4s">
+              <div class="hidden-content">
+                <h4>Philippe Baumstimler</h4>
+                <p>Détection d’anomalies dans les photographies du segment antérieur de l’œil par apprentissage profond non supervisé</p>
+              </div>
+              <div class="showed-content">
+                <img src="assets/images/VisionIC_carre_transp.png" alt="">
+              </div>
+            </div>
+          </a>
+           <!-- Dialog Box -->
+        <dialog class="dialogOne">
+          <div class="dialog-content">
+              <h3>ABSTRACT - Philippe Baumstimler </h3>
+              <br>
+              <h6>Détection d’anomalies dans les photographies du segment antérieur de l’œil par apprentissage profond non supervisé 
+              </h6>
+              <p>Le diagnostic des pathologies oculaires menant à la perte de vision constitue un enjeu économique et social majeur au Canada. En raison des contraintes liées au manque de personnel spécialisé, notamment dans les régions éloignées, et du manque de ressources financières, la téléophtalmologie  offre une solution prometteuse en combinant imagerie médicale et analyse à distance. Largement fondée sur l'imagerie du fond d’œil, qui bénéficie d'un riche corpus d'études scientifiques, elle nécessite cependant des équipements spécialisés et coûteux, freinant ainsi son déploiement à grande échelle. Face à ces limitations, l’imagerie du segment antérieur de l’œil se présente comme une alternative intéressante. Plus accessible et économique, elle permet l’identification de pathologies grâce à des photographies prises à l’aide d’une lampe à fente. Ce mémoire se concentre sur le développement d’une méthode de détection d’anomalies non supervisée pour les photographies de la conjonctive. En s’appuyant sur des approches par reconstruction, l’objectif est d'identifier toute structure anatomique sortant de la définition de la normalité apprise. À cet effet, nous avons d’abord constitué une base de données adaptée, puis développé SiamAAE, un modèle d'apprentissage profond innovant qui combine reconstruction et auto-distillation surmontant les biais liés à l’apprentissage de l’identité observés dans les modèles de la littérature, tout en conservant les performances en détection d’anomalies de ces dernières.
+                Cette étude marque une première étape dans l'exploration des méthodes non supervisées de détection d'anomalies appliquée aux photographies du segment antérieur de l’œil. 
+              </p>
+              <button class="closeDialog">Close</button>
+          </div>
+      </dialog>
+        </div>
+        <div class="col-lg-3 col-sm-6">
+          <a  class="openDialog">
+            <div class="item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.5s">
+              <div class="hidden-content">
+                <h4>Hugo Rodet</h4>
+                <p>Diversity of body shapes in human pose generation methods and their training data </p>
+              </div>
+              <div class="showed-content">
+                <img src="assets/images/VisionIC_carre_transp.png" alt="">
+              </div>
+            </div>
+          </a>
+           <!-- Dialog Box -->
+        <dialog class="dialogOne">
+          <div class="dialog-content">
+              <h3>ABSTRACT - Hugo Rodet </h3>
+              <br>
+              <h6>Diversity of body shapes in human pose generation methods and their training data</h6>
+              <p>Describing human movement is key to many applications ranging from medicine to 3D animation. However, not everyone moves in the same way, and this project aims to highlight specifically the influence of the body shape on possible poses. We investigate the dataset AMASS, itself a unified aggregate of different motion capture datasets, allowing us to draw more general conclusions. Through a measure of self-intersection, we show that poses performed by low-BMI individuals are unsuited to higher-BMI body shapes. Extending these results to several usual pose generation architectures that represent building blocks of recent methods, we conclude that not taking into account the body shape during generation yields poses unsuited for use with higher-BMI body models. These assessments hold even when controlling for the pose diversity and realism of the evaluated methods. A comparison of the distribution of BMIs in AMASS and the US population reveals that both high and low BMIs are underrepresented in the data, hinting that this issue arises not only from the architectures themselves, but also from the data they were trained on. We stress the importance of including more diverse body shapes during both motion data collection and directly in the architectures. 
+              </p>
+              <button class="closeDialog">Close</button>
+          </div>
+      </dialog>
+        </div>
+        <div class="col-lg-3 col-sm-6">
+          <a  class="openDialog">
+            <div class="item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.6s">
+              <div class="hidden-content">
+                <h4>Golriz Hosseinimanesh</h4>
+                <p>3D Generation of Dental Crowns using Transformers</p>
+              </div>
+              <div class="showed-content">
+                <img src="assets/images/MAGNU_Francois_logo copy.png" alt="">
+              </div>
+            </div>
+          </a>
+           <!-- Dialog Box -->
+        <dialog class="dialogOne">
+          <div class="dialog-content">
+              <h3>ABSTRACT - Golriz Hosseinimanesh </h3>
+              <br>
+              <h6>TBD</h6>
+              <p>TBD
+              </p>
+              <button class="closeDialog">Close</button>
+          </div>
+      </dialog>
+        </div>
+      </div>
+      
     </div>
   </div>
 
@@ -260,33 +533,26 @@ https://templatemo.com/tm-562-space-dynamic
     <div class="container">
       <div class="row">
         <div class="col-lg-6 wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.25s">
-          <div class="section-heading">
+          <div class="section-heading  wow bounceIn" data-wow-duration="1s" data-wow-delay="0.2s">
+
             <h2>Check Out our <span>Program</span> for the day</h2>
+            <br>
+            <br>
           </div>
         </div>
         <div class="col-lg-6 wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.25s">
           <div class="top-dec">
           </div>
         </div>
+
+        
+      
       </div>
+     
       <div class="row">
         <div class="col-lg-6 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.25s">
           <div class="left-image">
-            <a href="#"><img src="assets/images/paul-argenti-four-steps-to-a-perfect-presentation_1500_1000_70.jpg" alt="Workspace Desktop"></a>
-            <div class="info">
-              <div class="inner-content">
-                <ul>
-                  <li><i class="fa fa-calendar"></i> 13 Dec 2024 @ 1h40 PM</li>
-                  <li><i class="fa fa-users"></i> Galerie Rolland</li>
-                  <li><i class="fa fa-folder"></i> Keynote </li>
-                </ul>
-                <a href="#"><h4>Keynote Speaker - Rola Harmouche</h4></a>
-                <p>Rola Harmouche will be presenting a keynote on "title here" at 1h40pm in the Galerie Rolland!</p>
-                <div class="main-blue-button">
-                  <a href="#">Discover More</a>
-                </div>
-              </div>
-            </div>
+            <iframe src="https://drive.google.com/file/d/1KUHJcWrmPl345GG4NTr4zIlDfUDJU9tI/preview" width=100% height="750" ></iframe>
           </div>
         </div>
         <div class="col-lg-6 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.25s">
@@ -314,9 +580,9 @@ https://templatemo.com/tm-562-space-dynamic
               </li>
               <li>
                 <div class="left-content align-self-center">
-                  <span><i class="fa fa-calendar"></i> @ 14h10 PM</span>
+                  <span><i class="fa fa-calendar"></i> 06 Mar 2021</span>
                   <a href="#"><h4>Panel Discussion</h4></a>
-                  <p>Four invited speakers - Rola Harmouche, Michael Saunthier, Benjamin De Leener and TBD discuss the place of AI in the medical field, with animation by Prof. Lama Seoud </p>
+                  <p>Four invited speakers - Rola Harmouche, Michael Saunthier, Benjamin De Leener and Julia Keren discuss AI in medicine, with animation by Prof. Lama Seoud </p>
                 </div>
                 <div class="right-image">
                   <a href="#"><img src="assets/images/istockphoto-1382269943-612x612.jpg" alt=""></a>
@@ -337,7 +603,7 @@ https://templatemo.com/tm-562-space-dynamic
             <h2>LIV4D, MAGNU AND VISIONIC </h2>
             <p>The CAMI Symposium is a key conference for medical imaging and AI, uniting researchers, clinicians, and industry experts to explore innovations in AI-driven imaging. It covers topics like image analysis, diagnostics, and surgical planning, fostering collaboration to enhance precision medicine and improve patient care. </p>
             <div class="phone-info">
-              <h4>For any enquiry, Contact Us: <span><i class="fa fa-home"></i> <a href="#">M-310</a></span></h4>
+              <h4>For any enquiry, Contact Us: <span><i class="fa fa-home"></i> <a href="#">M-3202</a></span></h4>
             </div>
           </div>
         </div>
@@ -360,12 +626,68 @@ https://templatemo.com/tm-562-space-dynamic
     </div>
   </footer>
   <!-- Scripts -->
+  
+  <script>
+// Disable scroll when modal opens
+function disableScroll() {
+    const scrollPosition = window.pageYOffset || document.documentElement.scrollTop;
+    // Store the scroll position
+    document.body.style.position = 'fixed';
+    document.body.style.top = `-${scrollPosition}px`;  // Prevent page from scrolling
+    document.body.style.left = '0';
+    document.body.style.width = '100%';
+    document.body.style.height = '100%';
+    document.body.style.overflow = 'hidden';  // Prevent scroll
+}
+
+// Enable scroll when modal closes
+function enableScroll() {
+    // Remove the styles that were applied to prevent scroll
+    const scrollPosition = parseInt(document.body.style.top || '0') * -1;  // Get the previous scroll position
+    document.body.style.position = '';
+    document.body.style.top = '';
+    document.body.style.left = '';
+    document.body.style.width = '';
+    document.body.style.height = '';
+    document.body.style.overflow = '';
+
+    // Scroll back to the previous position without jumping to the top
+    window.scrollTo(0, scrollPosition);
+}
+
+// Get all the dialog elements and open buttons
+const dialogElements = document.getElementsByClassName('dialogOne');
+const openDialogButtons = document.getElementsByClassName('openDialog');
+
+// Loop through each open button and set up event listeners
+for (let i = 0; i < openDialogButtons.length; i++) {
+    const openDialogButton = openDialogButtons[i];
+    const dialogOne = dialogElements[i]; // Match dialog box with its open button
+
+    const closeDialogButton = dialogOne.querySelector('.closeDialog'); // Get the close button for each dialog
+
+    // When the open button is clicked, show the dialog and disable scrolling
+    openDialogButton.addEventListener('click', function(event) {
+        event.preventDefault(); // Prevent the default action of the link
+        disableScroll(); // Prevent scrolling when dialog opens
+        dialogOne.showModal(); // Open the dialog
+    });
+
+    // When the close button is clicked, close the dialog and enable scrolling
+    closeDialogButton.addEventListener('click', function() {
+        dialogOne.close(); // Close the dialog
+        enableScroll(); // Allow scrolling again
+    });
+}
+</script>
+
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="assets/js/owl-carousel.js"></script>
   <script src="assets/js/animation.js"></script>
   <script src="assets/js/imagesloaded.js"></script>
   <script src="assets/js/templatemo-custom.js"></script>
+ 
 
 </body>
 </html>
